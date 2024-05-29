@@ -1,0 +1,26 @@
+footer{
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   .footer-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 56px;
+
+    .footer-item{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: 320px;
+        color: white;
+        font-family: "sans";
+        gap: 16px;
+
+
+    }
+   }
+}

@@ -1,0 +1,92 @@
+main{
+    padding-bottom: 100px;
+    .main-desc{
+        text-align: center;
+        padding-top: 92px;
+        h1{
+            font-size: 40px;
+            font-family:"sans";
+            font-weight: 700;
+            color: #000000;
+        }
+        p{
+            font-size: 16px;
+            font-family: "sans";
+            font-weight: 400;
+            color: #000000;
+            padding-top: 16px;
+        }
+    }
+    .main-boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .main-box{
+            width: 804px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            background-color:#ffffff ;
+            border: none;
+            border-radius: 6px;
+            margin-top: 80px;
+            padding: 32px;
+            box-shadow: 0px 0px 5px 1px rgb(25, 24, 24);
+
+            .left-main{
+                padding-bottom: 170px;
+            }
+            
+            h2{
+                font-size: 20px;
+                font-family: "sans";
+                font-weight: 700;
+                color: #000000;
+                padding-bottom: 16px;
+            }
+
+            p{
+                font-size: 16px;
+                font-family: "sans";
+                font-weight: 400;
+                color: #000000;
+                padding-bottom: 16px;
+            }
+
+            .list-main{
+                li{
+                    font-size: 16px;
+                    font-family: "sans";
+                    font-weight: 400;
+                    color: #000000;
+                    padding-bottom: 8px;
+                }
+
+            }
+            .right-main{
+                gap: 16px;
+                .btn{
+                    padding: 8px 16px;
+                    font-size: 16px;
+                    font-family: "sans";
+                    font-weight: 700;
+                    color: #ffffff;
+                    background-color: #00BAFC;
+                    border: none;
+                    border-radius: 5px;
+                    margin-top: 16px;
+                }
+                .link-btn{
+                    font-size: 16px;
+                    font-family: "sans";
+                    font-weight: 400;
+                    color: #00BAFC;
+                }
+                
+            }
+        }
+    }
+}
